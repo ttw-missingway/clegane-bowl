@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Confirmed</title>
+  <meta name="description" content="Clegane Bowl. Get Hype.">
+  <meta name="author" content="Lord Steven, Ser Dylan, and Maester Weston of House Slop">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <style>
+    @font-face {
+      font-family: Futura Condensed Extra;
+      src: url(fonts/Futura Condensed Extra Bold Oblique.otf) format("opentype");
+    }
+    @font-face {
+      font-family: WeissRundgotisch;
+      src: url(fonts/WeissRundgotisch.ttf) format("truetype");
+    }
+  </style>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/clegane.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/Sigil-01.png">
+
+  <!-- JS, JQuery, Angular
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/clegane.js"></script>
+  <script type="text/javascript" src="js/jquery.svg.min.js"></script>
+  <script type="text/javascript" src="js/jquery.svganim.js"></script>
+  <script type="text/javascript" src="js/jquery.countdown.js"></script>
+
+</head>
+<body   style="background: #07080A; !important;">
+
+  <!-- NAVGATION
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <nav role="navigation">
+    <div id="menuToggle">
+      <input type="checkbox" />
+      <span id="bar1"></span>
+      <span id="bar2"></span>
+      <span id="bar3"></span>
+      <ul id="menu">
+        <a class="menu-text" href="#at_a_glance"><li style="color: white;">AT A GLANCE</li></a>
+        <a class="menu-text" href="#behind_the_numbers"><li style="color: white;">BEHIND THE NUMBERS</li></a>
+        <a class="menu-text" href="#thirty_for_thirty"><li style="color: white;">30 FOR 30</li></a>
+        <a class="menu-text" href="#picks"><li style="color: white;">PICKS</li></a>
+        <a class="menu-text" href="#tickets"><li style="color: white;">TICKETS</li></a>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- LANDING PAGE
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="mobile-buffer"></div>
+<div class="mobile-buffer"></div>
+<div class="header">
+  <div class="container">
+    <div class="row">
+      <div style="margin-top: 5%">
+          <img class="center fit-sixty" src="images/CLEGANEBOWL HEAD-03.png" alt="banner">
+      </div>
+    </div>
+  </div>
+  <br>
+<p id="hype_text" style:"font-family: WeissRundgotisch; font-size: 56px;"> </p>
+  <div class="container">
+    <div class="row">
+      <div style="margin-top: 0% margin-bottom: 0%">
+        <img class="center fit-eighty" src="images/CBHome.jpg" alt="hype">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- AT A GLANCE
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div id="startchange" class="main" style="position: relative">
+      <img id="ceebeetweet" class="fit-fifty center" src="images/CBTweets.png" alt="hype">
+      <div>
+        <img id="at_a_glance" class="fit-twenty center" src="images/HeaderGlance-02.png" alt="hype">
+      </div>
+        <br>
+        <br>
+      <div class="center" style="margin-top: 0% margin-bottom: 0%">
+        <img class="fit-twenty" src="images/MtHelmet-02 (3).png" alt="hype" style="display: inline-block">
+        <img class="fit-twenty" src="images/HdHelmet-02 (3).png" alt="hype" style="display: inline-block">
+      </div>
+      <div class="center" style="margin-top: 0% margin-bottom: 0%">
+        <img class="fit-twenty grow" src="images/MtName-02 (2).png" alt="hype" style="display: inline-block">
+        <img class="fit-twenty grow" src="images/HdName-02 (3).png" alt="hype" style="display: inline-block">
+      </div>
+      <div class="center" style="margin-top: 0% margin-bottom: 0%; position: relative">
+        <div id="box" style="background:#ffd31a; height:100%; width:0%; position:absolute; opacity:1; z-index=0"></div>
+        <img class="fit-twenty grow" src="images/MtHt-02 (2).png" alt="hype" style="z-index=1; position: relative; display: inline-block">
+        <img class="fit-twenty grow" src="images/HdHt-02 (3).png" alt="hype" style="z-index=1; position: relative; display: inline-block">
+      </div>
+      <div class="center" style="margin-top: 0% margin-bottom: 0%">
+        <img class="fit-twenty grow" src="images/MtWt-02 (2).png" alt="hype" style="display: inline-block">
+        <img class="fit-twenty grow" src="images/HdWt-02 (2).png " alt="hype" style="display: inline-block">
+      </div>
+      <div class="center" style="margin-top: 0% margin-bottom: 0%; position: relative">
+        <div id="box2" style=" background:#ffd31a; height:100%; width:0%; margin-left:30%; position:absolute; opacity:1; z-index=0"></div>
+        <img class="fit-twenty grow" src="images/MtRec-02 (2).png" alt="hype" style="z-index=1; position: relative; display: inline-block">
+        <img class="fit-twenty grow" src="images/HdRec-02 (3).png" alt="hype" style="z-index=1; position: relative; display: inline-block">
+      </div>
+      <div style="position: absolute; margin-left: 30%">
+        <svg id="box3" height="200" width="0" style="margin-right:100%; position:absolute; opacity:1; z-index=0">
+          <polyline points="0,150 240,150 310,80 600,80" style="fill:none; stroke:#ffd31a; stroke-width:50" />
+        </svg>
+      </div>
+      <div class="center" style="margin-top: 0% margin-bottom: 0%">
+        <img class="fit-twenty grow" src="images/MtHorse-02 (3).png" alt="hype" style="z-index=1; position: relative; display: inline-block">
+        <img class="fit-twenty grow" src="images/HdSchool-02 (3).png" alt="hype" style="z-index=1; position: relative; display: inline-block">
+      </div>
+      <div class="center" style="margin-top: 0% margin-bottom: 0%; position: relative">
+        <img class="fit-twenty grow" src="images/MtSchool-02 (2).png" alt="hype" style="z-index=1; position: relative; display: inline-block">
+        <img class="fit-twenty grow" src="images/HdStyle-02 (2).png" alt="hype" style="z-index=1; position: relative; display: inline-block">
+      </div>
+      <div class="center" style="margin-top: 0% margin-bottom: 0%; position: relative">
+        <img class="fit-twenty grow" src="images/MtStyle-02.png" alt="hype" style="z-index=1; position: relative; display: inline-block">
+        <img class="fit-twenty grow" src="images/MtStyle-02.png" alt="hype" style="z-index=1; position: relative; display: inline-block; opacity: 0; filter: alpha(opacity=0);">
+      </div>
+
+      <!-- BEHIND THE NUMBERS
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <br>
+      <br>
+      <br>
+      <div>
+        <img  id="behind_the_numbers" class="fit-thirty center" src="images/BEHIND THE NUMBERS-03.png" alt="hype">
+      </div>
+      <br>
+      <br>
+
+      <img class="fit-fifty center" style="cursor: pointer;" data-toggle="collapse" data-target="#btn-col" src="images/CBArticle1.png" alt="hype">
+      <div id="btn-col" class="collapse" style="background: white">
+        <img id="zachlowe" class="fit-fifty center" src="images/BEHINDNUMBERSzachlowe-08.png" alt="hype">
+        <p class="margin-text"> L​​et’s talk Clegane Bowl! Hype for this matchup has been tossed around longer than
+Gendry’s rowboat. There’s so much to dig into – The Mountain is undefeated at
+
+home in King’s Landing, The Hound has the best road record over two seasons, Lannister
+coaching shakeups – this is a matchup built for purists and casuals alike. Did I mention
+it’s a rivalry game? Someone find Gendry!
+
+If you don’t know by now, (how do you not know!?) Sandor and Gregor Clegane are
+brothers. They’re like the Lopez twins without the geekiness, or the Gasols if they hated
+each other. They jostled for minutes on the same AAU team, Clegane Keep Preparatory
+Academy, which is a trivia night fun fact that my colleague Petyr Baelish has discussed ad
+nauseum. These two have been competing with each other since they could walk. And
+they have great nicknames! Seriously, has there ever been a better nickname than  <i>The Hound</i>?</p>
+          <br>
+          <br>
+        <p class="margin-text-cont"> <strong> THE HOUND </strong> </p>
+        <p class="margin-text-cont">
+          According to sources close to the team, former  GM Tywin only gave Clegane one hour
+        to decide his future before he fled The Battle of Blackwater. The Hound hasn’t confirmed
+        this story, but it became clear that his customary confidence was shaken, and he struggled
+        after leaving King’s Landing. Until recently:</p>
+        <div class="center embed">
+          <iframe src="https://streamable.com/s/efrw0/yrnqrq" frameborder="0" width="30%" height="30%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe>
+        </div>
+        <br>
+        <p class="margin-text-cont">
+          Who let the dog out? He’s in the middle of a resurgence, stringing together relaxed, decisive
+        performances and finally demonstrating the consistency expected from a former franchise
+        cornerstone. His in-combat IQ is second only to Jon Snow (pretty darn savvy despite what
+        former teammate Ygritte would have you believe). The game has slowed down for him,
+        allowing him to remain effective even as his athleticism begins to decline.  </p>
+
+        <p class="margin-text-cont">
+          A lot of people, including me, had written him off after his failed stint with rising star Arya
+ Stark, but he’s thriving with the Brotherhood. Beric Dondarrion and Thoros of Myr have
+done a great job creating space for him to operate. They’re saying all the right things:  </p>
+        <img class="fit-thirty center" src="images/BehindTweet1-03.png" alt="chicken tweet">
+        <p class="margin-text-cont">
+          His new teammates trust him. Beric D hasn’t had to sacrifice his game. He’s poised for his
+best season since the We Believe years. They embraced the Sandor reclamation project,
+and it’s paying dividends. It also doesn’t hurt that Clegane is in maybe the best shape of
+his life:  </p>
+        <img class="fit-thirty center" src="images/tweetembed-08.jpg" alt="chicken tweet">
+        <br>
+        <p class="margin-text-cont"> <strong> THE MOUNTAIN </strong> </p>
+        <p class="margin-text-cont">
+  And then there’s <i>The Mountain...</i></p>
+        <div class="center embed">
+          <iframe src="https://streamable.com/s/l44v2/dhfrxa" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe>
+        </div>
+        <br>
+        <p class="margin-text-cont">
+          Prime Mountain was unstoppable. His armor will hang next to the banners in the rafters of
+        the Red Keep. He rolls out of bed and dominates. Look at the sheer force and angle of his
+        downstroke in the clip. How do you stop that?</p>
+      <br>
+      <p class="margin-text-cont">
+        He may singlehandedly be the antidote to pace-and-space. He’s humongous, and he’s quick
+      for his size – he will be able to switch onto the perimeter for brief stretches of a fight.
+      If he can channel his intensity and avoid picking up needless fouls (he’s picked up more
+      technicals than anyone over his career), it’s hard to bet against him.</p>
+      <img style="max-width: 50%" class="center" src="images/BehindTweetImg3-03.png" alt="chicken tweet">
+      <br>
+      <p class="margin-text-cont">
+        The Lannisters were criticized for letting Cersei GM and coach the team after her father Tywin
+      stepped down, but she’s done a mostly great job. She upgraded the medical staff and expanded
+      Gregor’s role, revitalising his career. They’ve  found ways to phase out responsibilities for the
+      aging Kingslayer, and they even have a shot at the splashy Euron Greyjoy in free agency!
+      If they pick up Euron, they’re poised to make one more run with a strange, intriguing veteran
+      roster, realistic if Clegane is willing to take the hometown discount.</p>
+      <br>
+      <p class="margin-text-cont"> <strong> PREDICTION </strong> </p>
+      <p class="margin-text-cont">
+        Expectedness hasn't diminished the fun; the collection of story lines and elite talent has this match up poised to draw unprecedented ratings, and the ride itself has been wildly unpredictable to this point.
+      </p>
+      <div class="center embed">
+        <iframe src="https://streamable.com/s/gfsqw/caiweu" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe>
+      </div>
+        <br>
+      <p class="margin-text-cont">
+        But this clip is what makes this forthcoming series so exciting: it is an intense, old-school
+rivalry. These guys hate each other. There’s bad blood. They understand what is coming, and
+how to respond, and the responses to the responses. Now it's about execution, crunch time
+mettle, and a little bit of luck. It’s going to be close. Greg is posting historic TS (true-sword)
+percentages. He’s finishing plays. But the key to the series lies on the defensive end – Sandor
+can guard Gregor, but I’m not so sure that Gregor can guard Sandor for an entire matchup.
+He has a chance to be disruptive with his giant wingspan, but if that’s not enough, I fully
+expect The Hound to capitalize. <strong>Hound in 7.</strong></p>
+      <br>
+      </div>
+
+      <img class="fit-fifty center" style="cursor: pointer;" data-toggle="collapse" data-target="#btnt-col" src="images/CBArticle2.png" alt="hype">
+      <div id="btnt-col" class="collapse">
+        <img id="ceebeejeebee" class="fit-fifty center" src="images/CBLeeJenkins.png" alt="hype">
+        <p class="margin-text">
+        "I wasn’t supposed to be here...”
+      </p>
+        <br>
+      <p class="margin-text-cont">
+        Sandor Clegane is a man of few words. This the first thing he tells me. To say that hetells me this happily
+        would be a gross overstatement. His shoulders cut a massive figure - even sitting down he is taller than
+        I am standing. Our table underway is comically small beneath his hunkered frame. Our ship is heading
+        west from Dragon Stone to King’s Landing. Sandor famously left King’s Landing without so much as a
+        raven to his former Lannister teammates. He hasn’t been back since.
+      </p>
+        <br>
+      <p class="margin-text-cont">
+        “What are you expecting when you return?” I ask him.
+      </p>
+        <br>
+      <p class="margin-text-cont">
+        “Mostly boos,” he tells me.
+      </p>
+        <br>
+      <p class="margin-text-cont">
+        Just four seasons ago, Sandor left behind a potential dynasty. Fans unceremoniously burned his
+          armor in the streets. His parting words – <strong> “F--k the King” </strong> – signaled the end of an era. Looking
+        back, the collection of talent was undeniable, but the fit was never quite right. Clegane failed to mesh
+        with teammates, sharing minutes with All-Star free agent Bronn and clashing with Joffrey’s
+        leadership style. He avoided council meetings. And then, probably the lowpoint of his professional
+        career happened.
+      </p>
+        <br>
+      <p class="margin-text-cont">
+        <strong> Blackwater </strong>
+      </p>
+        <br>
+      <p class="margin-text-cont">
+        <i>Uncoachable, quitter, choker</i> – the narrative turned. He was never a knight obsessed with legacy,
+        but his reputation splintered under the weight of the 24-hour raven cycle. He lost endorsements with
+        Hotpie Bakeries and the Iron Bank.
+      </p>
+      <p class="margin-text-cont">
+        He needed a fresh start. He tested the market, signing with future all-star Arya Stark to form his own
+        “super-team”. There were glimpses of the duo’s potential, but they never found the consistency fans
+        envisioned.
+      </p>
+      <p class="margin-text-cont">
+        “With Arya, she just wanted to kill me all the time,” he chuckles.
+      </p>
+      <p class="margin-text-cont">
+        Arya is notoriously competitive. Tales of her work-ethic are otherworldly – last offseason she traveled to
+        Braavos to train with the legendary Jaqen H’ghar, arguably the greatest international player the game
+        has ever seen. Sandor, on the other hand, prefers to practice privately. Only Sandor’s brother, Gregor, is
+        said to have a worse attitude towards training camps (Gregor famously said, “Hurt on company time,
+        rehab on company time”). So while Arya and Sandor fit on paper, whether or not they would ever put it
+        together became a point of contention.
+      </p>
+      <p class="margin-text-cont">
+        And then, when it looked like they were on the cusp of figuring it out, Sandor suffered a season-ending injured.
+        His game went over a cliff. He unraveled in the final minutes of an end-of-season matchup with <i>The Sapphire
+        Flyer</i>, Brienne of Tarth, leading many to believe he would retire in the offseason.
+      </p>
+      <p class="margin-text-cont">
+        “Short f--king retirement, that.”
+      </p>
+      <p class="margin-text-cont">
+        Now, a year later, he’s in the midst of a resurgence. The Brotherhood offered him a 10-day contract, eventually
+        gambling on a cap-friendly two-year deal with a team-option. Sandor, in his seventh season, shows signs of
+        being a max player again. These days, there is a somber maturity beneath the gruff exterior. Unlocking it is
+        not for the faint of heart. I pry, but it’s like trying start a conversation with a 250-pound rottweiler.
+      </p>
+      <p class="margin-text-cont">
+        “You’re a talker,” he says to me.
+      </p>
+      <p class="margin-text-cont">
+        He won’t discuss his brother, or the fire, or his scars. He looks strong. He has revamped his diet, one of the few
+        things he was actually excited to discuss with me.
+      </p>
+      <p class="margin-text-cont">
+        “I love it, I get hungry, so I love it. I eat at least two chickens every meal. Wash it down with an ale,” he says,
+        a charismatic grin betraying his usual snarl.
+      </p>
+      <p class="margin-text-cont">
+        He moves through our interview at his own speed, but I sense I’ve begun to win him over when he starts to
+        casually use the “c” word.
+      </p>
+      <p class="margin-text-cont">
+        “A lot of c--ts have knights fawning over them from the cradle. I never squired. It’s shit work. High-born lads.
+        Every lord I ever met was a c--t. I wore Gregor’s hand-me-downs. So the whole process was discouraging,
+        definitely. But like I said, I wasn’t even supposed to be here. I’m on a boat with a bunch of Eastern Conference
+        all-stars. And I understand that it’s a business. Loyalty? Where the <i>F--K’S</i> loyalty? Lannister advising the Targaryen
+        girl. Wildling and Northerner. I fought for the king, and did the king fight for me?”
+      </p>
+      <p class="margin-text-cont">
+        “Let’s talk Cleganebowl, specifically. Do you realize this is the most hyped matchup in recent memory, maybe ever?
+        Do you read the ravens?” I ask him.
+      </p>
+      <p class="margin-text-cont">
+        “I don’t read the words that come pouring out of your c--t mouths!” he laughs.
+      </p>
+      <p class="margin-text-cont">
+        The work continues. This is a man, <i>nay</i>, a dog, with nothing to lose, elite teammates, and everything to gain against
+        a brother who is barely there. Hype the door.
+      </p>
+      </div>
+
+      <br>
+      <div>
+        <img id="thirty_for_thirty" class="fit-thirty center" src="images/30 FOR 30-03.png" alt="hype">
+      </div>
+      <br>
+      <div id="thirty">
+        <div>
+          <img class="fit center" src="images/30for30Ticket-08.png" alt="30 for 30">
+            <br>
+            <div style="position:relative;height:0;padding-bottom:30.25%">
+              <iframe src="https://www.youtube.com/embed/GBYQxx81DzU?ecver=2" frameborder="0" width="100%" height="100%" allowfullscreen style="width:60%;height:100%;position:absolute;left:20%;top:0px;overflow:hidden;"></iframe>
+            </div>
+        </div>
+      </div>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div>
+          <img id="picks" class="fit-thirty center" src="images/PICKS-03.png" alt="hype">
+        </div>
+      <br>
+      <div>
+        <div>
+          <img class="fit-thirty center grow" src="images/PicksBS1-08.jpg" alt="bs1" style="display: inline-block">
+        </div>
+        <div>
+          <img class="fit-thirty center grow" src="images/PicksZL2-08.jpg" alt="zl" style="display: inline-block">
+        </div>
+        <div>
+          <img class="fit-thirty center grow" src="images/PicksSkip3-08.jpg" alt="skip">
+        </div>
+        <div>
+          <img class="fit-thirty center grow" src="images/PicksSAS4-08.jpg" alt="sas">
+        </div>
+        <div>
+          <img class="fit-thirty center grow" src="images/PicksPetyr5-08.jpg" alt="petyr">
+        </div>
+        <div>
+          <img class="fit-thirty center grow" src="images/PicksVarys6-08.jpg" alt="varys">
+        </div>
+        <div>
+          <img class="fit-thirty center grow" src="images/PicksWoj7-08.jpg" alt="varys">
+        </div>
+        <div>
+          <img class="fit-thirty center grow" src="images/PicksShel8-08.jpg" alt="shel">
+        </div>
+        <div>
+          <img class="fit-thirty center grow" src="images/PicksWind9-08.jpg" alt="wind">
+        </div>
+        <div>
+          <img class="fit-thirty center" src="images/PicksScore10-08.jpg" alt="score">
+        </div>
+    </div>
+    <div>
+      <img id="tickets" onclick="PlaySound()" class="fit-thirty center" src="images/TICKETS-03.png" alt="hype" style="cursor: url('data:image/x-icon;base64,AAACAAEAICAQAAMAAQDoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAD/APfv5gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIgAAAAAAAAAAAAAAAAACIiIgAAAAAAAAAAAAAAAAAiIiIAAAAAAAAAAAAAAAAAIiIiAAAAAAAAAAAAAAAAACIiIgAAAAAAAAAAAAAAAAAiIiIAAAAAAAAAAAAAAAAAIiIiAAAAAAAAAAAAAAAAACIiIgAAAAAAAAAAAAAAAAAiIiIAAAAAAAAAAAAAAAAAIiIiAAAAAAAAAAAAAAAAAAIiIAAAAAAAAAAAAAAAEQAAEQAAAAAAAAAAAAAAABERERERAAAAAAAAAAAAAAAREREREQAAAAAAAAAAAAAAEQAAEQAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAD//////////////////////////////////////////////////////////////////////////////////////w////4H///+B////gf///4H///+B////gf///4H///+B////gf///8P///nn///4Af//+AH///nn////5///w=='), auto;">
+    </div>
+    <img class="fit-fifty center" data-toggle="collapse" data-target="#btnt-col" src="images/CBWalkerAd.png" alt="hype">
+    <div class="countdown">
+      <span id="clock"></span>
+    </div>
+    <script type="text/javascript">
+      $('#clock').countdown('08/06/2017 21:00:00')
+      .on('update.countdown', function(event) {
+          var format = '%H:%M:%S';
+          if(event.offset.totalDays > 0) {
+            format = '%-d day%!d ' + format;}
+          if(event.offset.weeks > 0) {
+            format = '%-w week%!w ' + format;}
+          $(this).html(event.strftime(format));})
+          .on('finish.countdown', function(event) {
+            $(this).html('GET HYPE!')
+            .parent().addClass('disabled');});
+      </script>
+</div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
